@@ -1,0 +1,2072 @@
+[
+  {
+    "inventory": [
+      {
+        "id": "29fa8a4c-a6fb-48cb-9396-20f5d477990e",
+        "fruit_name": "Apple",
+        "quantity": 33819,
+        "created_at": "2023-09-11T19:01:35.665Z",
+        "updated_at": "2023-09-12T18:13:41.074Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "ca963dc1-56be-46e0-8a18-3316ce53debe",
+        "fruit_name": "Banana",
+        "quantity": 72794,
+        "created_at": "2023-09-11T18:24:18.038Z",
+        "updated_at": "2023-09-11T18:51:38.394Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "471b3498-96a0-4d64-ba6c-bfe94b5159e7",
+        "fruit_name": "Orange",
+        "quantity": 10643,
+        "created_at": "2023-09-11T20:09:00.974Z",
+        "updated_at": "2023-09-11T19:50:55.926Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "faddd478-c136-4307-9d79-4202730039cd",
+        "fruit_name": "Grapes",
+        "quantity": 75980,
+        "created_at": "2023-09-12T10:26:11.620Z",
+        "updated_at": "2023-09-11T21:36:30.385Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "4f71e497-fe1c-44ed-99d3-bf03fa73569a",
+        "fruit_name": "Watermelon",
+        "quantity": 8502,
+        "created_at": "2023-09-12T16:39:30.010Z",
+        "updated_at": "2023-09-12T04:33:31.738Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "5418c476-571b-454e-a300-2afcae84787b",
+        "created_at": "2023-09-12T16:36:35.618Z",
+        "updated_at": "2023-09-12T01:28:37.746Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "954b3fca-091f-4bff-a924-6340096ef43b",
+        "created_at": "2023-09-12T12:12:16.762Z",
+        "updated_at": "2023-09-11T22:28:47.974Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79735a93-a4d7-45ed-b3ff-af2fe3dc869c",
+        "created_at": "2023-09-12T05:10:47.428Z",
+        "updated_at": "2023-09-12T06:26:43.724Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a39e973e-96d4-4d28-9ca3-47861c8ff4c5",
+        "created_at": "2023-09-11T22:07:31.758Z",
+        "updated_at": "2023-09-11T22:50:03.437Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b0815b5-fed9-4210-9843-7266059be2c0",
+        "created_at": "2023-09-12T17:38:16.313Z",
+        "updated_at": "2023-09-11T19:32:55.382Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "ba7102f9-cd71-43bb-92b4-1608d1785e8b",
+        "status": "Pending",
+        "created_at": "2023-09-12T13:06:30.825Z",
+        "updated_at": "2023-09-12T15:48:05.806Z",
+        "cart_id": "5b0815b5-fed9-4210-9843-7266059be2c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "593e2fc1-2723-4d8b-8b70-d1305e7cd256",
+        "status": "Processing",
+        "created_at": "2023-09-12T11:46:52.501Z",
+        "updated_at": "2023-09-11T18:18:56.321Z",
+        "cart_id": "5418c476-571b-454e-a300-2afcae84787b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33c13df8-0fc0-44c8-89b5-908c871d6e87",
+        "status": "Shipped",
+        "created_at": "2023-09-12T08:39:27.246Z",
+        "updated_at": "2023-09-11T18:21:44.514Z",
+        "cart_id": "954b3fca-091f-4bff-a924-6340096ef43b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce952996-cf04-44d7-bfa1-f9f0e0357748",
+        "status": "Delivered",
+        "created_at": "2023-09-12T04:01:22.051Z",
+        "updated_at": "2023-09-12T00:12:00.066Z",
+        "cart_id": "954b3fca-091f-4bff-a924-6340096ef43b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95551134-2c72-4956-90d5-f925efe51e76",
+        "status": "Cancelled",
+        "created_at": "2023-09-12T10:59:22.178Z",
+        "updated_at": "2023-09-12T07:38:20.254Z",
+        "cart_id": "5418c476-571b-454e-a300-2afcae84787b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "e4b9be70-cc19-49b1-bb02-c5a2bc4b4d82",
+        "quantity": 60926,
+        "created_at": "2023-09-12T17:41:40.591Z",
+        "updated_at": "2023-09-11T23:51:23.626Z",
+        "cart_id": "5b0815b5-fed9-4210-9843-7266059be2c0",
+        "inventory_id": "29fa8a4c-a6fb-48cb-9396-20f5d477990e"
+      },
+      {
+        "id": "c5c96691-e7ba-4fd8-a893-f7b993184495",
+        "quantity": 92672,
+        "created_at": "2023-09-12T15:24:37.830Z",
+        "updated_at": "2023-09-11T21:56:55.966Z",
+        "cart_id": "5418c476-571b-454e-a300-2afcae84787b",
+        "inventory_id": "ca963dc1-56be-46e0-8a18-3316ce53debe"
+      },
+      {
+        "id": "26653495-81d3-4ab4-aab2-fd98ccbf2e85",
+        "quantity": 57160,
+        "created_at": "2023-09-12T06:37:10.258Z",
+        "updated_at": "2023-09-11T18:33:51.450Z",
+        "cart_id": "5b0815b5-fed9-4210-9843-7266059be2c0",
+        "inventory_id": "29fa8a4c-a6fb-48cb-9396-20f5d477990e"
+      },
+      {
+        "id": "dba5f354-c9b0-48f2-b7f6-81a60a0b144e",
+        "quantity": 18930,
+        "created_at": "2023-09-12T02:31:24.849Z",
+        "updated_at": "2023-09-12T08:05:22.292Z",
+        "cart_id": "79735a93-a4d7-45ed-b3ff-af2fe3dc869c",
+        "inventory_id": "29fa8a4c-a6fb-48cb-9396-20f5d477990e"
+      },
+      {
+        "id": "0d46b1dd-f668-4ee3-abfa-b88996722ac5",
+        "quantity": 36780,
+        "created_at": "2023-09-12T05:32:22.154Z",
+        "updated_at": "2023-09-11T23:45:47.730Z",
+        "cart_id": "5b0815b5-fed9-4210-9843-7266059be2c0",
+        "inventory_id": "ca963dc1-56be-46e0-8a18-3316ce53debe"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "53b437d5-bfc1-42b9-9d51-13cd36346bd2",
+        "email": "Gail_Beier@yahoo.com",
+        "firstName": "Stanford",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/964.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7b1f1eb-8e48-4a8b-882e-d5240e1cb0a5",
+        "email": "Santiago.Waelchi@hotmail.com",
+        "firstName": "Trevor",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29437558",
+        "tenantId": null
+      },
+      {
+        "reference": "0df58dc6-b5de-4f39-81af-517a64c4c072",
+        "email": "Arnaldo96@hotmail.com",
+        "firstName": "Merl",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48190541",
+        "tenantId": null
+      },
+      {
+        "reference": "571960c0-bdc2-405b-bc2b-3fdd0509332f",
+        "email": "Ed90@gmail.com",
+        "firstName": "Hans",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73081869",
+        "tenantId": null
+      },
+      {
+        "reference": "ea68f97a-bf02-4188-af2f-7e780d43ae51",
+        "email": "Edward_Hammes51@hotmail.com",
+        "firstName": "Jeanie",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1236.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "72ad3ff1-e7c3-4713-8b69-951c5ad65e42",
+        "fruit_name": "Apple",
+        "quantity": 26417,
+        "created_at": "2023-09-12T03:00:48.821Z",
+        "updated_at": "2023-09-12T09:56:27.768Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "413007ee-3214-434a-b295-a1fe5aea77fc",
+        "fruit_name": "Banana",
+        "quantity": 21546,
+        "created_at": "2023-09-12T15:43:26.170Z",
+        "updated_at": "2023-09-11T20:10:08.820Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "a1b0f12a-39d4-45c2-8723-7c1e7e0921a7",
+        "fruit_name": "Orange",
+        "quantity": 42278,
+        "created_at": "2023-09-12T17:32:15.885Z",
+        "updated_at": "2023-09-12T12:32:57.901Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "3bcd8cbb-1f74-43d8-ab32-e57e261f5f5c",
+        "fruit_name": "Mango",
+        "quantity": 42962,
+        "created_at": "2023-09-12T12:08:10.254Z",
+        "updated_at": "2023-09-12T04:09:46.667Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "919d5654-7542-46ee-872f-708b4e7062e9",
+        "fruit_name": "Grapes",
+        "quantity": 12560,
+        "created_at": "2023-09-12T09:15:46.118Z",
+        "updated_at": "2023-09-12T00:38:29.186Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "31313841-5a7c-4e4e-9729-3c4f03eb4762",
+        "created_at": "2023-09-12T07:20:39.289Z",
+        "updated_at": "2023-09-12T16:28:14.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b586cb3-ff05-4c16-9a9c-d27756184ecc",
+        "created_at": "2023-09-12T15:37:30.714Z",
+        "updated_at": "2023-09-12T01:05:24.130Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afff99b8-9f85-48fb-b79c-13c4aeb9c42e",
+        "created_at": "2023-09-12T03:01:24.904Z",
+        "updated_at": "2023-09-12T16:28:26.448Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfa08d65-4057-4607-8c65-d58b3ec48353",
+        "created_at": "2023-09-12T05:41:42.007Z",
+        "updated_at": "2023-09-12T04:20:23.023Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74a87c6f-2985-4aab-a6be-bc98c5a5a7ac",
+        "created_at": "2023-09-11T23:42:21.681Z",
+        "updated_at": "2023-09-11T20:47:03.592Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "9a0db023-8543-4ff8-966c-1fc8d36d39a6",
+        "status": "Pending",
+        "created_at": "2023-09-11T21:36:59.521Z",
+        "updated_at": "2023-09-12T08:58:22.958Z",
+        "cart_id": "9b586cb3-ff05-4c16-9a9c-d27756184ecc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0989227-2b33-4e66-9da3-97aeec4be451",
+        "status": "Processing",
+        "created_at": "2023-09-12T09:20:10.765Z",
+        "updated_at": "2023-09-12T15:53:46.437Z",
+        "cart_id": "31313841-5a7c-4e4e-9729-3c4f03eb4762",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aced0102-0818-49df-a777-7dca0a54c2bc",
+        "status": "Shipped",
+        "created_at": "2023-09-12T08:26:24.593Z",
+        "updated_at": "2023-09-12T15:29:35.880Z",
+        "cart_id": "9b586cb3-ff05-4c16-9a9c-d27756184ecc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27ecc1aa-5245-4bbc-9d86-40d911526a21",
+        "status": "Delivered",
+        "created_at": "2023-09-12T15:23:04.211Z",
+        "updated_at": "2023-09-12T06:40:22.865Z",
+        "cart_id": "afff99b8-9f85-48fb-b79c-13c4aeb9c42e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3731012e-2269-4332-8984-200162af49b3",
+        "status": "Cancelled",
+        "created_at": "2023-09-12T07:51:20.283Z",
+        "updated_at": "2023-09-12T10:22:38.689Z",
+        "cart_id": "afff99b8-9f85-48fb-b79c-13c4aeb9c42e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "0eb1e4c5-a019-4ac9-9d5d-c225b8e4c7ab",
+        "quantity": 40259,
+        "created_at": "2023-09-11T18:41:04.280Z",
+        "updated_at": "2023-09-12T15:36:17.432Z",
+        "cart_id": "31313841-5a7c-4e4e-9729-3c4f03eb4762",
+        "inventory_id": "919d5654-7542-46ee-872f-708b4e7062e9"
+      },
+      {
+        "id": "c82ab8b6-0b3d-4300-a011-44c0f0d16f7c",
+        "quantity": 86809,
+        "created_at": "2023-09-11T22:49:37.776Z",
+        "updated_at": "2023-09-11T19:46:23.621Z",
+        "cart_id": "afff99b8-9f85-48fb-b79c-13c4aeb9c42e",
+        "inventory_id": "413007ee-3214-434a-b295-a1fe5aea77fc"
+      },
+      {
+        "id": "e283672f-2272-490b-a831-bbd492417afd",
+        "quantity": 58633,
+        "created_at": "2023-09-12T05:13:59.103Z",
+        "updated_at": "2023-09-12T14:02:38.378Z",
+        "cart_id": "9b586cb3-ff05-4c16-9a9c-d27756184ecc",
+        "inventory_id": "72ad3ff1-e7c3-4713-8b69-951c5ad65e42"
+      },
+      {
+        "id": "fe9ecc5b-c04a-497a-823c-311dda02b56b",
+        "quantity": 99964,
+        "created_at": "2023-09-11T18:43:55.082Z",
+        "updated_at": "2023-09-12T16:19:04.261Z",
+        "cart_id": "74a87c6f-2985-4aab-a6be-bc98c5a5a7ac",
+        "inventory_id": "919d5654-7542-46ee-872f-708b4e7062e9"
+      },
+      {
+        "id": "09aa6c56-55ca-4ac6-934f-2c297d5d087a",
+        "quantity": 74512,
+        "created_at": "2023-09-12T10:12:29.692Z",
+        "updated_at": "2023-09-12T11:00:11.613Z",
+        "cart_id": "cfa08d65-4057-4607-8c65-d58b3ec48353",
+        "inventory_id": "413007ee-3214-434a-b295-a1fe5aea77fc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a3ec5c9a-3d44-40c8-b358-54de79a7effe",
+        "email": "Brisa_Upton7@hotmail.com",
+        "firstName": "Verdie",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63108525",
+        "tenantId": null
+      },
+      {
+        "reference": "def9a922-00e1-4ce2-80ed-7078134854fc",
+        "email": "Maryam79@hotmail.com",
+        "firstName": "Abdiel",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9207349",
+        "tenantId": null
+      },
+      {
+        "reference": "d18110d6-ed1b-4ed9-a3d9-3845442d28f5",
+        "email": "Louie95@yahoo.com",
+        "firstName": "Zachariah",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/144.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e003b4c4-3eae-4a83-8ab3-33b35b05afa5",
+        "email": "Justine13@hotmail.com",
+        "firstName": "Doyle",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/471.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c144d139-2eab-4bd0-a689-2615327bbb3f",
+        "email": "Janiya.Kohler@yahoo.com",
+        "firstName": "Carrie",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/804.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "13729051-d019-4226-a6bd-23727cc64e57",
+        "fruit_name": "Apple",
+        "quantity": 8286,
+        "created_at": "2023-09-12T03:53:25.145Z",
+        "updated_at": "2023-09-12T09:46:15.398Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "62a8293c-eab8-40fd-a36f-b458f468d325",
+        "fruit_name": "Banana",
+        "quantity": 23554,
+        "created_at": "2023-09-11T21:36:45.646Z",
+        "updated_at": "2023-09-12T13:17:56.146Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "4e82abaa-4c47-4cd9-b06b-632ca61a97fe",
+        "fruit_name": "Orange",
+        "quantity": 34600,
+        "created_at": "2023-09-12T03:50:27.891Z",
+        "updated_at": "2023-09-12T02:56:31.056Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "584b7344-08f9-4d67-ab33-24d3cfcc60f1",
+        "fruit_name": "Strawberry",
+        "quantity": 53971,
+        "created_at": "2023-09-12T06:30:52.778Z",
+        "updated_at": "2023-09-12T05:16:57.908Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "6ab99f37-4183-40bd-81cc-4347730626f3",
+        "fruit_name": "Watermelon",
+        "quantity": 68224,
+        "created_at": "2023-09-11T23:02:14.431Z",
+        "updated_at": "2023-09-12T11:14:13.443Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "14c08511-6b56-4242-bc16-4e81760cbd66",
+        "created_at": "2023-09-12T04:44:13.727Z",
+        "updated_at": "2023-09-12T11:26:28.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f913995-062f-4758-9795-3a5221fb3bb5",
+        "created_at": "2023-09-12T14:10:30.725Z",
+        "updated_at": "2023-09-12T13:33:26.679Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5781a59b-d04c-4886-9915-b1f65389c95a",
+        "created_at": "2023-09-12T10:17:15.180Z",
+        "updated_at": "2023-09-12T11:42:27.223Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6396de34-9f21-4199-a37a-69cab0399486",
+        "created_at": "2023-09-12T11:46:12.253Z",
+        "updated_at": "2023-09-12T06:23:50.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6310c8b-bf24-4c2e-95d8-f8b8132cc3bb",
+        "created_at": "2023-09-12T07:43:06.859Z",
+        "updated_at": "2023-09-12T12:47:10.071Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "1f1ea430-b5cf-4517-a5db-4a0949c68f57",
+        "status": "Pending",
+        "created_at": "2023-09-12T10:53:59.477Z",
+        "updated_at": "2023-09-12T15:22:54.805Z",
+        "cart_id": "14c08511-6b56-4242-bc16-4e81760cbd66",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee255b27-db99-4ead-92be-255c6e93dc20",
+        "status": "Processing",
+        "created_at": "2023-09-12T07:11:12.531Z",
+        "updated_at": "2023-09-12T10:49:13.230Z",
+        "cart_id": "1f913995-062f-4758-9795-3a5221fb3bb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27bd11c6-de85-4233-beef-779b5cdbb5d3",
+        "status": "Shipped",
+        "created_at": "2023-09-11T20:47:58.980Z",
+        "updated_at": "2023-09-11T23:30:47.273Z",
+        "cart_id": "6396de34-9f21-4199-a37a-69cab0399486",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0316da6-c811-44af-98ff-f513b30c325d",
+        "status": "Delivered",
+        "created_at": "2023-09-12T10:39:17.684Z",
+        "updated_at": "2023-09-12T10:39:48.231Z",
+        "cart_id": "6396de34-9f21-4199-a37a-69cab0399486",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "858c4ffd-db4b-4408-b1cb-28cf802b6832",
+        "status": "Cancelled",
+        "created_at": "2023-09-12T06:39:01.244Z",
+        "updated_at": "2023-09-12T00:05:31.531Z",
+        "cart_id": "14c08511-6b56-4242-bc16-4e81760cbd66",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "cf72bd79-7841-427c-abdb-89254faedf8f",
+        "quantity": 68740,
+        "created_at": "2023-09-12T01:53:52.177Z",
+        "updated_at": "2023-09-12T10:22:53.733Z",
+        "cart_id": "1f913995-062f-4758-9795-3a5221fb3bb5",
+        "inventory_id": "6ab99f37-4183-40bd-81cc-4347730626f3"
+      },
+      {
+        "id": "cbbc0d5f-f2f4-49e9-b661-a4383ecd5a12",
+        "quantity": 6313,
+        "created_at": "2023-09-12T04:39:44.064Z",
+        "updated_at": "2023-09-12T06:54:23.557Z",
+        "cart_id": "5781a59b-d04c-4886-9915-b1f65389c95a",
+        "inventory_id": "62a8293c-eab8-40fd-a36f-b458f468d325"
+      },
+      {
+        "id": "9c7145b4-6456-4a80-b21d-d61b1b049c9b",
+        "quantity": 79655,
+        "created_at": "2023-09-12T10:43:39.145Z",
+        "updated_at": "2023-09-12T00:23:52.230Z",
+        "cart_id": "1f913995-062f-4758-9795-3a5221fb3bb5",
+        "inventory_id": "4e82abaa-4c47-4cd9-b06b-632ca61a97fe"
+      },
+      {
+        "id": "4c0413ca-299f-4ab5-993e-be65e08351c9",
+        "quantity": 29555,
+        "created_at": "2023-09-11T23:47:47.956Z",
+        "updated_at": "2023-09-12T14:20:02.256Z",
+        "cart_id": "5781a59b-d04c-4886-9915-b1f65389c95a",
+        "inventory_id": "13729051-d019-4226-a6bd-23727cc64e57"
+      },
+      {
+        "id": "a1a3c8f1-f08e-422b-916d-b3014b5fef99",
+        "quantity": 98731,
+        "created_at": "2023-09-11T20:01:33.298Z",
+        "updated_at": "2023-09-12T02:41:11.187Z",
+        "cart_id": "1f913995-062f-4758-9795-3a5221fb3bb5",
+        "inventory_id": "13729051-d019-4226-a6bd-23727cc64e57"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9fd1a022-31c9-4231-8a2c-bb4aa260ba06",
+        "email": "Concepcion.Rogahn@hotmail.com",
+        "firstName": "Evangeline",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22766329",
+        "tenantId": null
+      },
+      {
+        "reference": "21f605bf-9658-4a3e-b117-d29affad8f5a",
+        "email": "Amber78@hotmail.com",
+        "firstName": "Herminio",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29565600",
+        "tenantId": null
+      },
+      {
+        "reference": "2cfe1ba1-9b92-44a9-b370-16bab4e5888d",
+        "email": "Corene.Hane@hotmail.com",
+        "firstName": "Sonia",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3672340",
+        "tenantId": null
+      },
+      {
+        "reference": "b0e8241c-c6a7-4b9e-a409-9cb14d3dd36f",
+        "email": "Hannah_Weimann38@hotmail.com",
+        "firstName": "Cindy",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55229072",
+        "tenantId": null
+      },
+      {
+        "reference": "eed35e66-2321-43e4-a161-95aef46a7ea3",
+        "email": "Martine.Walsh@yahoo.com",
+        "firstName": "Esmeralda",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43507171",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "86d6a04c-0f2d-4375-8740-aa5403c4d23c",
+        "fruit_name": "Apple",
+        "quantity": 17040,
+        "created_at": "2023-09-11T23:18:38.224Z",
+        "updated_at": "2023-09-12T01:44:50.382Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "adb3d8b1-6297-4a92-987b-8a6dd3ad77c6",
+        "fruit_name": "Banana",
+        "quantity": 62637,
+        "created_at": "2023-09-11T21:07:23.767Z",
+        "updated_at": "2023-09-12T05:55:56.313Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "12faf216-6eb1-46fd-b2ca-3411568d8ee4",
+        "fruit_name": "Orange",
+        "quantity": 61927,
+        "created_at": "2023-09-12T14:57:20.761Z",
+        "updated_at": "2023-09-12T00:51:04.406Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "e5c2c4e9-c611-47f7-85f2-8bae3dbfe9f4",
+        "fruit_name": "Strawberry",
+        "quantity": 14792,
+        "created_at": "2023-09-12T11:54:37.041Z",
+        "updated_at": "2023-09-12T12:51:32.759Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "4c1a3031-58eb-4a0d-8900-ed5a25d63ddd",
+        "fruit_name": "Watermelon",
+        "quantity": 13956,
+        "created_at": "2023-09-12T15:13:36.433Z",
+        "updated_at": "2023-09-12T17:31:40.717Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "461a94a5-c1a3-4130-9689-d496c40df22f",
+        "created_at": "2023-09-12T07:12:30.636Z",
+        "updated_at": "2023-09-11T23:43:29.036Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "536cb89f-390f-4f62-b384-a5f6dc9544b5",
+        "created_at": "2023-09-12T09:01:12.248Z",
+        "updated_at": "2023-09-11T19:07:42.481Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e868ef1-1a29-4d0f-a8b2-8ac2f2cc2be1",
+        "created_at": "2023-09-12T10:26:05.357Z",
+        "updated_at": "2023-09-12T00:07:15.390Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bebbbe19-6f06-460f-b68b-4888125a7037",
+        "created_at": "2023-09-12T12:00:32.900Z",
+        "updated_at": "2023-09-12T13:23:16.670Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d02ea542-90d9-4de4-b3b3-ee7c85519a3b",
+        "created_at": "2023-09-12T17:25:36.195Z",
+        "updated_at": "2023-09-11T18:23:41.872Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "69305835-9b3d-4f00-824a-4a4db8b5d8b8",
+        "status": "Pending",
+        "created_at": "2023-09-11T20:43:51.397Z",
+        "updated_at": "2023-09-11T19:32:59.066Z",
+        "cart_id": "d02ea542-90d9-4de4-b3b3-ee7c85519a3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd8df0b3-8ec8-41b6-a77d-344948bba668",
+        "status": "Processing",
+        "created_at": "2023-09-12T09:08:49.133Z",
+        "updated_at": "2023-09-12T11:17:44.536Z",
+        "cart_id": "461a94a5-c1a3-4130-9689-d496c40df22f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac076c4d-d63f-4366-bdd7-8a1889a18567",
+        "status": "Shipped",
+        "created_at": "2023-09-12T08:39:15.033Z",
+        "updated_at": "2023-09-12T02:55:51.333Z",
+        "cart_id": "536cb89f-390f-4f62-b384-a5f6dc9544b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5da0bff1-e135-45ac-8a10-1ff837c3a5a2",
+        "status": "Delivered",
+        "created_at": "2023-09-12T17:48:42.618Z",
+        "updated_at": "2023-09-11T22:32:25.306Z",
+        "cart_id": "536cb89f-390f-4f62-b384-a5f6dc9544b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "978d415d-a20c-4f3c-b7d0-edc7706a3dd6",
+        "status": "Cancelled",
+        "created_at": "2023-09-12T02:45:45.081Z",
+        "updated_at": "2023-09-12T12:33:34.397Z",
+        "cart_id": "1e868ef1-1a29-4d0f-a8b2-8ac2f2cc2be1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "423cc9e6-9df9-4085-aa14-81698ca16fb3",
+        "quantity": 94803,
+        "created_at": "2023-09-12T03:23:25.265Z",
+        "updated_at": "2023-09-12T14:32:25.370Z",
+        "cart_id": "536cb89f-390f-4f62-b384-a5f6dc9544b5",
+        "inventory_id": "12faf216-6eb1-46fd-b2ca-3411568d8ee4"
+      },
+      {
+        "id": "aabdaafc-edaa-4189-8d28-8ef184a8f1ca",
+        "quantity": 73535,
+        "created_at": "2023-09-12T04:53:57.442Z",
+        "updated_at": "2023-09-12T15:02:40.558Z",
+        "cart_id": "536cb89f-390f-4f62-b384-a5f6dc9544b5",
+        "inventory_id": "adb3d8b1-6297-4a92-987b-8a6dd3ad77c6"
+      },
+      {
+        "id": "f07c9bca-0970-46d2-a4af-20234d9ce65a",
+        "quantity": 58362,
+        "created_at": "2023-09-12T14:36:34.678Z",
+        "updated_at": "2023-09-12T06:12:36.325Z",
+        "cart_id": "461a94a5-c1a3-4130-9689-d496c40df22f",
+        "inventory_id": "4c1a3031-58eb-4a0d-8900-ed5a25d63ddd"
+      },
+      {
+        "id": "d45f1107-6661-4539-860e-eeea6688e0bd",
+        "quantity": 88364,
+        "created_at": "2023-09-12T14:27:12.461Z",
+        "updated_at": "2023-09-12T08:50:40.996Z",
+        "cart_id": "d02ea542-90d9-4de4-b3b3-ee7c85519a3b",
+        "inventory_id": "12faf216-6eb1-46fd-b2ca-3411568d8ee4"
+      },
+      {
+        "id": "5242229d-d947-4a58-b8e6-3621b42b7cdb",
+        "quantity": 28432,
+        "created_at": "2023-09-12T03:19:43.755Z",
+        "updated_at": "2023-09-12T03:21:45.422Z",
+        "cart_id": "bebbbe19-6f06-460f-b68b-4888125a7037",
+        "inventory_id": "86d6a04c-0f2d-4375-8740-aa5403c4d23c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "df24d2e8-dcc7-4c3a-ab9f-1d525d5fbed0",
+        "email": "Nasir74@gmail.com",
+        "firstName": "Oran",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32483057",
+        "tenantId": null
+      },
+      {
+        "reference": "b7d9ff78-75b8-4fa3-a9b5-a306e2089bdc",
+        "email": "Patrick.King@yahoo.com",
+        "firstName": "Dallin",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1171.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7c2ef43-5822-437b-86a5-add1dc973811",
+        "email": "Keanu97@yahoo.com",
+        "firstName": "Schuyler",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7746837-1151-4a00-b8dd-c9d185ffe311",
+        "email": "Madyson.Turcotte48@hotmail.com",
+        "firstName": "Estella",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/315.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8489f67b-ec62-4256-bd40-6d2ce4f9d8b2",
+        "email": "Domenico_Schulist@hotmail.com",
+        "firstName": "Octavia",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86372819",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "006dd7ab-b1de-49c6-a19f-38f1c0164178",
+        "fruit_name": "Apple",
+        "quantity": 89126,
+        "created_at": "2023-09-11T18:40:04.504Z",
+        "updated_at": "2023-09-12T05:31:14.885Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "b4e11216-eea8-4100-8fb5-4b6690a97493",
+        "fruit_name": "Banana",
+        "quantity": 78161,
+        "created_at": "2023-09-12T08:42:47.320Z",
+        "updated_at": "2023-09-11T22:45:46.758Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "2dfa134f-0867-4e0c-a71e-89e10840c3cc",
+        "fruit_name": "Orange",
+        "quantity": 83606,
+        "created_at": "2023-09-12T05:50:33.119Z",
+        "updated_at": "2023-09-12T03:33:28.905Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "247a7084-b91b-49dc-bd55-db3dd614a430",
+        "fruit_name": "Mango",
+        "quantity": 52746,
+        "created_at": "2023-09-11T19:30:06.613Z",
+        "updated_at": "2023-09-12T00:42:19.538Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "43fb013f-5b77-4071-a136-f9925b96ae17",
+        "fruit_name": "Grapes",
+        "quantity": 37044,
+        "created_at": "2023-09-12T07:51:04.048Z",
+        "updated_at": "2023-09-12T17:08:32.981Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "ea49d8c0-b769-44bb-b370-2a540026f687",
+        "created_at": "2023-09-12T11:34:13.962Z",
+        "updated_at": "2023-09-11T18:22:16.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e866bd3-4076-490f-bb8e-2f9cda2c7819",
+        "created_at": "2023-09-11T20:53:04.258Z",
+        "updated_at": "2023-09-12T00:05:09.142Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "321f21ac-b165-4bc0-b245-2240bdc4416f",
+        "created_at": "2023-09-11T20:51:06.176Z",
+        "updated_at": "2023-09-12T18:10:56.850Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d69759f-fd35-45ed-af54-14b84c438ec1",
+        "created_at": "2023-09-12T07:35:57.409Z",
+        "updated_at": "2023-09-11T22:51:14.615Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9cbf670-0701-4313-bd33-c368bbbe3442",
+        "created_at": "2023-09-11T22:32:35.349Z",
+        "updated_at": "2023-09-11T19:10:27.697Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "cbd24774-d230-4ad1-827b-4b63dc09e7ac",
+        "status": "Pending",
+        "created_at": "2023-09-12T12:27:59.308Z",
+        "updated_at": "2023-09-12T15:23:25.378Z",
+        "cart_id": "5e866bd3-4076-490f-bb8e-2f9cda2c7819",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bedd6a1-aa58-4165-8072-b7d788b8fe81",
+        "status": "Processing",
+        "created_at": "2023-09-12T10:40:05.392Z",
+        "updated_at": "2023-09-12T02:24:07.743Z",
+        "cart_id": "5e866bd3-4076-490f-bb8e-2f9cda2c7819",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f6e97ec-dfb7-4998-989f-6ebbffd44a25",
+        "status": "Shipped",
+        "created_at": "2023-09-12T12:58:24.614Z",
+        "updated_at": "2023-09-12T10:51:02.415Z",
+        "cart_id": "6d69759f-fd35-45ed-af54-14b84c438ec1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25ceadf1-e928-4d03-990d-8df98828e7a9",
+        "status": "Delivered",
+        "created_at": "2023-09-12T08:37:24.653Z",
+        "updated_at": "2023-09-12T03:42:00.376Z",
+        "cart_id": "321f21ac-b165-4bc0-b245-2240bdc4416f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "407ba57d-0d59-45f4-a87f-5fd88c9939ca",
+        "status": "Cancelled",
+        "created_at": "2023-09-11T19:28:03.610Z",
+        "updated_at": "2023-09-12T16:49:04.135Z",
+        "cart_id": "e9cbf670-0701-4313-bd33-c368bbbe3442",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "d0f96058-4ef0-4b22-b186-8395edeb3d20",
+        "quantity": 44556,
+        "created_at": "2023-09-12T05:26:52.308Z",
+        "updated_at": "2023-09-12T11:20:29.259Z",
+        "cart_id": "321f21ac-b165-4bc0-b245-2240bdc4416f",
+        "inventory_id": "2dfa134f-0867-4e0c-a71e-89e10840c3cc"
+      },
+      {
+        "id": "6e8e80c9-5b55-47f6-a04c-6714ef051a96",
+        "quantity": 81019,
+        "created_at": "2023-09-12T17:53:08.035Z",
+        "updated_at": "2023-09-11T23:11:47.652Z",
+        "cart_id": "6d69759f-fd35-45ed-af54-14b84c438ec1",
+        "inventory_id": "2dfa134f-0867-4e0c-a71e-89e10840c3cc"
+      },
+      {
+        "id": "e545b8e6-648a-4e4a-8197-91ec2837ebe1",
+        "quantity": 17923,
+        "created_at": "2023-09-12T00:13:02.550Z",
+        "updated_at": "2023-09-11T21:49:57.156Z",
+        "cart_id": "321f21ac-b165-4bc0-b245-2240bdc4416f",
+        "inventory_id": "2dfa134f-0867-4e0c-a71e-89e10840c3cc"
+      },
+      {
+        "id": "b83a5721-0d8d-4b33-ba3a-ead57551a911",
+        "quantity": 19246,
+        "created_at": "2023-09-12T09:48:41.176Z",
+        "updated_at": "2023-09-12T12:14:24.378Z",
+        "cart_id": "321f21ac-b165-4bc0-b245-2240bdc4416f",
+        "inventory_id": "006dd7ab-b1de-49c6-a19f-38f1c0164178"
+      },
+      {
+        "id": "37f4cc4d-a5f0-4c05-b9ff-b3f7e84d2ed2",
+        "quantity": 45648,
+        "created_at": "2023-09-12T07:42:35.338Z",
+        "updated_at": "2023-09-12T17:42:12.777Z",
+        "cart_id": "ea49d8c0-b769-44bb-b370-2a540026f687",
+        "inventory_id": "43fb013f-5b77-4071-a136-f9925b96ae17"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "32b02e1d-ee76-4607-bb8e-1b72475cac56",
+        "email": "Alessandra.Keeling13@gmail.com",
+        "firstName": "Andre",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/117.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "86f354ff-6c01-40ed-9b86-9129d2ee611a",
+        "email": "Soledad0@yahoo.com",
+        "firstName": "Joyce",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/847.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e6eb34c9-a76b-43da-983c-c908a6629ad1",
+        "email": "Lane.Dooley@hotmail.com",
+        "firstName": "Adah",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/793.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9300e4c-a840-4462-a62b-8e6017fb4392",
+        "email": "Eddie_Lindgren51@hotmail.com",
+        "firstName": "Clarissa",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62907887",
+        "tenantId": null
+      },
+      {
+        "reference": "3a070057-d0cd-4ac2-b4e0-63a14c04d053",
+        "email": "Garett.Rolfson96@yahoo.com",
+        "firstName": "Elinore",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68247114",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "47a8f989-829f-4481-8a00-394c7d375946",
+        "fruit_name": "Apple",
+        "quantity": 42082,
+        "created_at": "2023-09-12T16:55:26.019Z",
+        "updated_at": "2023-09-12T04:34:18.531Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "7a14a3ba-4a9c-45b2-a4af-d4750bb754a9",
+        "fruit_name": "Banana",
+        "quantity": 74783,
+        "created_at": "2023-09-12T04:09:04.956Z",
+        "updated_at": "2023-09-12T16:57:35.867Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "cb67beba-6d10-4d97-8815-6203eb70a817",
+        "fruit_name": "Orange",
+        "quantity": 40171,
+        "created_at": "2023-09-11T19:48:52.627Z",
+        "updated_at": "2023-09-12T15:54:47.972Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "0d94ef22-d0a3-456a-a109-4b1309068d81",
+        "fruit_name": "Grapes",
+        "quantity": 3274,
+        "created_at": "2023-09-12T10:19:33.521Z",
+        "updated_at": "2023-09-12T00:01:47.663Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "f6a58b84-d360-4237-8f0c-056dc9c8dd8f",
+        "fruit_name": "Watermelon",
+        "quantity": 23957,
+        "created_at": "2023-09-12T12:13:35.095Z",
+        "updated_at": "2023-09-12T15:01:33.422Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "ef3ddeda-aa39-447b-ab75-012035c87135",
+        "created_at": "2023-09-12T06:22:36.324Z",
+        "updated_at": "2023-09-11T21:19:26.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29196a14-b07f-4281-b86b-0ac1ab3b1184",
+        "created_at": "2023-09-12T05:14:19.536Z",
+        "updated_at": "2023-09-12T11:25:35.251Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6898d471-99e2-42fc-9eaa-5e5f8cb9b713",
+        "created_at": "2023-09-11T19:55:41.902Z",
+        "updated_at": "2023-09-12T02:23:16.871Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95576d45-ed4a-465f-82c1-9bf0ea5056fb",
+        "created_at": "2023-09-11T18:25:52.781Z",
+        "updated_at": "2023-09-12T13:59:08.150Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb17deda-392c-4910-bb24-02df28887c59",
+        "created_at": "2023-09-11T20:23:27.376Z",
+        "updated_at": "2023-09-12T13:53:25.529Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "53b97dec-a855-4955-8075-cee3766e4aca",
+        "status": "Pending",
+        "created_at": "2023-09-11T22:33:54.243Z",
+        "updated_at": "2023-09-11T19:13:05.080Z",
+        "cart_id": "6898d471-99e2-42fc-9eaa-5e5f8cb9b713",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03eae56c-157c-4f72-ae4f-6d529fdc065a",
+        "status": "Processing",
+        "created_at": "2023-09-12T07:27:04.086Z",
+        "updated_at": "2023-09-12T12:05:30.495Z",
+        "cart_id": "6898d471-99e2-42fc-9eaa-5e5f8cb9b713",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f017dd87-a6a9-4125-8f01-9da0814e70e3",
+        "status": "Shipped",
+        "created_at": "2023-09-12T17:29:26.026Z",
+        "updated_at": "2023-09-12T16:08:49.439Z",
+        "cart_id": "ef3ddeda-aa39-447b-ab75-012035c87135",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad818048-4ee9-445f-bf09-717773f63b56",
+        "status": "Delivered",
+        "created_at": "2023-09-11T23:13:18.946Z",
+        "updated_at": "2023-09-12T17:31:02.710Z",
+        "cart_id": "95576d45-ed4a-465f-82c1-9bf0ea5056fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eeac58a7-7378-43f8-81b6-a0486df8624c",
+        "status": "Cancelled",
+        "created_at": "2023-09-11T21:55:54.119Z",
+        "updated_at": "2023-09-11T19:32:25.172Z",
+        "cart_id": "95576d45-ed4a-465f-82c1-9bf0ea5056fb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "83cfcec7-3a49-43b0-b24f-1b69ff98afba",
+        "quantity": 82687,
+        "created_at": "2023-09-12T00:59:29.138Z",
+        "updated_at": "2023-09-12T15:00:17.285Z",
+        "cart_id": "95576d45-ed4a-465f-82c1-9bf0ea5056fb",
+        "inventory_id": "cb67beba-6d10-4d97-8815-6203eb70a817"
+      },
+      {
+        "id": "a40d6a37-8973-447e-b480-136010db9e88",
+        "quantity": 74412,
+        "created_at": "2023-09-12T03:04:59.503Z",
+        "updated_at": "2023-09-11T23:02:00.802Z",
+        "cart_id": "ef3ddeda-aa39-447b-ab75-012035c87135",
+        "inventory_id": "cb67beba-6d10-4d97-8815-6203eb70a817"
+      },
+      {
+        "id": "f591c093-8af4-4b13-a78f-f5346e9bc7fa",
+        "quantity": 8347,
+        "created_at": "2023-09-12T06:22:37.110Z",
+        "updated_at": "2023-09-11T21:21:44.932Z",
+        "cart_id": "29196a14-b07f-4281-b86b-0ac1ab3b1184",
+        "inventory_id": "f6a58b84-d360-4237-8f0c-056dc9c8dd8f"
+      },
+      {
+        "id": "feda724a-c356-4fb1-a197-59187d9148ab",
+        "quantity": 90641,
+        "created_at": "2023-09-12T12:38:39.893Z",
+        "updated_at": "2023-09-12T05:08:25.191Z",
+        "cart_id": "cb17deda-392c-4910-bb24-02df28887c59",
+        "inventory_id": "f6a58b84-d360-4237-8f0c-056dc9c8dd8f"
+      },
+      {
+        "id": "881b4683-2112-4416-9a8a-6f756a948ad2",
+        "quantity": 32101,
+        "created_at": "2023-09-12T07:54:59.620Z",
+        "updated_at": "2023-09-12T16:47:10.049Z",
+        "cart_id": "29196a14-b07f-4281-b86b-0ac1ab3b1184",
+        "inventory_id": "47a8f989-829f-4481-8a00-394c7d375946"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5663e1d7-ed82-43d7-afa8-220fad7d8722",
+        "email": "Mireya_Russel-Robel79@yahoo.com",
+        "firstName": "Zechariah",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98356666",
+        "tenantId": null
+      },
+      {
+        "reference": "d9c00cd8-b6b0-4daf-a1ab-fc220ce264a8",
+        "email": "Milton38@gmail.com",
+        "firstName": "Jayda",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/817.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "71e5fcd8-d8e0-4ff1-a821-923078f8547d",
+        "email": "Ronaldo81@yahoo.com",
+        "firstName": "Austin",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/120039",
+        "tenantId": null
+      },
+      {
+        "reference": "38836c6e-ae08-46a7-900b-d96193bbfc61",
+        "email": "Frieda.Senger21@yahoo.com",
+        "firstName": "Wallace",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/83.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "41ce0dea-fe9b-44be-8024-d24dfd1fa6eb",
+        "email": "Jesse_Hauck79@gmail.com",
+        "firstName": "Josie",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84773542",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "7b6430da-a193-4b03-b680-a296972a26a3",
+        "fruit_name": "Apple",
+        "quantity": 80144,
+        "created_at": "2023-09-12T16:53:25.745Z",
+        "updated_at": "2023-09-11T20:35:51.164Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "2b05e7f6-0fbc-4a62-b971-2e17b3c81e4e",
+        "fruit_name": "Banana",
+        "quantity": 96257,
+        "created_at": "2023-09-12T13:58:14.465Z",
+        "updated_at": "2023-09-12T12:21:54.137Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "04c60606-e00f-4ce5-abc8-a7a40eaab44a",
+        "fruit_name": "Orange",
+        "quantity": 84971,
+        "created_at": "2023-09-12T08:52:15.554Z",
+        "updated_at": "2023-09-11T20:44:20.202Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "93729750-93b3-4685-9d89-e73b444642ea",
+        "fruit_name": "Mango",
+        "quantity": 82853,
+        "created_at": "2023-09-12T09:11:44.669Z",
+        "updated_at": "2023-09-11T22:31:04.772Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "56623693-66e8-4eb0-bb67-2876a17d63fa",
+        "fruit_name": "Grapes",
+        "quantity": 83543,
+        "created_at": "2023-09-12T15:25:44.884Z",
+        "updated_at": "2023-09-12T11:47:10.050Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "bed1d4a3-6d5e-4622-8f7e-7486f2c7cc55",
+        "created_at": "2023-09-11T21:15:11.775Z",
+        "updated_at": "2023-09-12T05:10:27.252Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de491804-ae9f-4b82-aee2-99e44f95dad3",
+        "created_at": "2023-09-11T21:32:53.027Z",
+        "updated_at": "2023-09-11T22:36:50.223Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd9dd882-5b12-418a-9ebc-9260e36f917c",
+        "created_at": "2023-09-12T15:46:17.855Z",
+        "updated_at": "2023-09-12T06:58:35.318Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18a83170-b4ee-4bce-b53a-fe574fdbcd65",
+        "created_at": "2023-09-12T17:57:12.258Z",
+        "updated_at": "2023-09-12T01:03:39.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fde78ca0-2f18-43dc-b781-bbf3283da76b",
+        "created_at": "2023-09-12T05:09:42.839Z",
+        "updated_at": "2023-09-12T09:39:06.193Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "f22f7575-52e1-40e4-a694-913d651c919a",
+        "status": "Pending",
+        "created_at": "2023-09-11T20:14:14.371Z",
+        "updated_at": "2023-09-12T13:58:34.987Z",
+        "cart_id": "fde78ca0-2f18-43dc-b781-bbf3283da76b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04ea822f-510e-432f-840a-d36cb919f05f",
+        "status": "Processing",
+        "created_at": "2023-09-12T09:33:56.574Z",
+        "updated_at": "2023-09-12T16:22:57.937Z",
+        "cart_id": "fde78ca0-2f18-43dc-b781-bbf3283da76b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e66a564d-c6f2-4efb-803f-a4d614b03ac4",
+        "status": "Shipped",
+        "created_at": "2023-09-11T23:02:52.402Z",
+        "updated_at": "2023-09-12T02:57:14.921Z",
+        "cart_id": "de491804-ae9f-4b82-aee2-99e44f95dad3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74aff4fa-c50e-440b-a8d5-9384a6fcc9f3",
+        "status": "Delivered",
+        "created_at": "2023-09-12T07:19:01.912Z",
+        "updated_at": "2023-09-12T00:40:47.896Z",
+        "cart_id": "bed1d4a3-6d5e-4622-8f7e-7486f2c7cc55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8786908-6d9c-4ac9-bc16-d811d97499d8",
+        "status": "Cancelled",
+        "created_at": "2023-09-12T17:59:40.271Z",
+        "updated_at": "2023-09-12T00:40:30.022Z",
+        "cart_id": "dd9dd882-5b12-418a-9ebc-9260e36f917c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "8437edb6-fbfb-492e-adce-4692dfcc35e4",
+        "quantity": 79926,
+        "created_at": "2023-09-11T21:44:13.255Z",
+        "updated_at": "2023-09-12T10:37:52.126Z",
+        "cart_id": "de491804-ae9f-4b82-aee2-99e44f95dad3",
+        "inventory_id": "7b6430da-a193-4b03-b680-a296972a26a3"
+      },
+      {
+        "id": "40cab6a8-6c44-45bc-bf1f-6fed8daa58be",
+        "quantity": 1768,
+        "created_at": "2023-09-12T08:10:28.932Z",
+        "updated_at": "2023-09-12T04:30:14.046Z",
+        "cart_id": "de491804-ae9f-4b82-aee2-99e44f95dad3",
+        "inventory_id": "56623693-66e8-4eb0-bb67-2876a17d63fa"
+      },
+      {
+        "id": "9c3c26b3-d011-4076-9a78-1992e1d6e470",
+        "quantity": 90123,
+        "created_at": "2023-09-12T08:37:41.841Z",
+        "updated_at": "2023-09-12T15:18:25.161Z",
+        "cart_id": "de491804-ae9f-4b82-aee2-99e44f95dad3",
+        "inventory_id": "04c60606-e00f-4ce5-abc8-a7a40eaab44a"
+      },
+      {
+        "id": "0437e4d3-e986-44d8-90e5-d1edb503e9f7",
+        "quantity": 51103,
+        "created_at": "2023-09-11T21:11:31.996Z",
+        "updated_at": "2023-09-12T10:55:40.194Z",
+        "cart_id": "de491804-ae9f-4b82-aee2-99e44f95dad3",
+        "inventory_id": "56623693-66e8-4eb0-bb67-2876a17d63fa"
+      },
+      {
+        "id": "ecd3856d-90b1-4c36-a871-6af3e8ba41b6",
+        "quantity": 78692,
+        "created_at": "2023-09-12T03:24:50.566Z",
+        "updated_at": "2023-09-12T12:31:54.739Z",
+        "cart_id": "fde78ca0-2f18-43dc-b781-bbf3283da76b",
+        "inventory_id": "56623693-66e8-4eb0-bb67-2876a17d63fa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bd74c93f-7ae2-480b-9ba4-aa3676be3b92",
+        "email": "Ambrose75@gmail.com",
+        "firstName": "Dedric",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7625531",
+        "tenantId": null
+      },
+      {
+        "reference": "b2aabab8-23a3-4879-86b3-0984de334299",
+        "email": "Stacy52@hotmail.com",
+        "firstName": "Stuart",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/71.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79799de4-c6b4-4f49-89aa-b970c13d7dcd",
+        "email": "Zelma_Veum@yahoo.com",
+        "firstName": "Wilhelmine",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15869342",
+        "tenantId": null
+      },
+      {
+        "reference": "a6610f06-74cd-4380-9632-13e292be562e",
+        "email": "Jarrod_Becker38@yahoo.com",
+        "firstName": "Narciso",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84801531",
+        "tenantId": null
+      },
+      {
+        "reference": "b38dbe87-b989-448a-9a8b-f3842b949141",
+        "email": "King_Champlin@gmail.com",
+        "firstName": "Tremaine",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/395.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "5c71a2b8-7e85-40a5-a67a-009aa03119fe",
+        "fruit_name": "Apple",
+        "quantity": 35950,
+        "created_at": "2023-09-11T19:34:09.050Z",
+        "updated_at": "2023-09-12T09:49:38.749Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "74af84c4-b47d-4427-b230-5bfeb2f4ccbf",
+        "fruit_name": "Banana",
+        "quantity": 26796,
+        "created_at": "2023-09-12T05:39:04.001Z",
+        "updated_at": "2023-09-12T15:27:32.191Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "f2531a64-b2a7-43ce-95ad-abc19026952d",
+        "fruit_name": "Orange",
+        "quantity": 39982,
+        "created_at": "2023-09-11T19:33:10.295Z",
+        "updated_at": "2023-09-12T15:10:32.505Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "d3725159-0309-4303-90dd-5c05f3817e06",
+        "fruit_name": "Strawberry",
+        "quantity": 9021,
+        "created_at": "2023-09-12T08:36:27.140Z",
+        "updated_at": "2023-09-12T02:36:41.586Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "7383eaf4-e655-4f95-a06b-65fae403a198",
+        "fruit_name": "Watermelon",
+        "quantity": 67841,
+        "created_at": "2023-09-12T07:37:13.363Z",
+        "updated_at": "2023-09-12T17:23:12.094Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "fe706dde-bded-44d0-a2ae-6ff6d5e6cd17",
+        "created_at": "2023-09-12T05:29:01.131Z",
+        "updated_at": "2023-09-12T07:14:21.199Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66849c90-f5ed-4b70-a702-687c3bb5faf6",
+        "created_at": "2023-09-11T23:31:14.794Z",
+        "updated_at": "2023-09-11T23:54:34.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fab76887-9234-44a3-be49-fe16102bbc42",
+        "created_at": "2023-09-12T04:39:56.850Z",
+        "updated_at": "2023-09-12T11:25:59.476Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "362e2d25-4686-42b0-955c-b512931d9aa7",
+        "created_at": "2023-09-12T04:55:14.644Z",
+        "updated_at": "2023-09-11T23:23:10.197Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7104fbb9-e7f4-46f3-826a-e2dc5df8707b",
+        "created_at": "2023-09-11T19:41:00.198Z",
+        "updated_at": "2023-09-11T20:16:18.787Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "70e4fa47-7405-4674-9b0c-7897dd9db6ca",
+        "status": "Pending",
+        "created_at": "2023-09-12T17:35:20.402Z",
+        "updated_at": "2023-09-12T13:51:17.724Z",
+        "cart_id": "fe706dde-bded-44d0-a2ae-6ff6d5e6cd17",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a3755c6-b079-41ac-ac00-6f8e85022e44",
+        "status": "Processing",
+        "created_at": "2023-09-12T10:03:39.456Z",
+        "updated_at": "2023-09-12T06:31:17.027Z",
+        "cart_id": "7104fbb9-e7f4-46f3-826a-e2dc5df8707b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66af6338-1dbb-4c59-a383-c7b22bb243c6",
+        "status": "Shipped",
+        "created_at": "2023-09-12T04:10:45.774Z",
+        "updated_at": "2023-09-12T03:13:06.851Z",
+        "cart_id": "7104fbb9-e7f4-46f3-826a-e2dc5df8707b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64d3499-b43a-4dd3-acc9-0a09c623ec34",
+        "status": "Delivered",
+        "created_at": "2023-09-12T02:55:58.544Z",
+        "updated_at": "2023-09-12T05:57:10.544Z",
+        "cart_id": "fe706dde-bded-44d0-a2ae-6ff6d5e6cd17",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ec6f2d1-03d7-420a-a060-60d9cf9d4721",
+        "status": "Cancelled",
+        "created_at": "2023-09-12T05:07:25.906Z",
+        "updated_at": "2023-09-12T16:22:45.309Z",
+        "cart_id": "66849c90-f5ed-4b70-a702-687c3bb5faf6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "e1cb412b-0597-4bd2-85f3-9f11a30467ce",
+        "quantity": 80598,
+        "created_at": "2023-09-12T00:30:06.006Z",
+        "updated_at": "2023-09-12T05:23:09.509Z",
+        "cart_id": "fe706dde-bded-44d0-a2ae-6ff6d5e6cd17",
+        "inventory_id": "d3725159-0309-4303-90dd-5c05f3817e06"
+      },
+      {
+        "id": "e929a675-69e2-40de-93e0-810ce6b207a5",
+        "quantity": 28518,
+        "created_at": "2023-09-12T06:24:54.309Z",
+        "updated_at": "2023-09-11T22:34:41.899Z",
+        "cart_id": "66849c90-f5ed-4b70-a702-687c3bb5faf6",
+        "inventory_id": "d3725159-0309-4303-90dd-5c05f3817e06"
+      },
+      {
+        "id": "3e3537a8-819f-437c-9ce0-8a32e19e5d56",
+        "quantity": 49307,
+        "created_at": "2023-09-12T00:27:27.627Z",
+        "updated_at": "2023-09-12T14:38:23.590Z",
+        "cart_id": "66849c90-f5ed-4b70-a702-687c3bb5faf6",
+        "inventory_id": "d3725159-0309-4303-90dd-5c05f3817e06"
+      },
+      {
+        "id": "a165f30c-dad7-46ed-9bec-26e6056d11b7",
+        "quantity": 26005,
+        "created_at": "2023-09-12T14:59:05.359Z",
+        "updated_at": "2023-09-12T16:46:00.500Z",
+        "cart_id": "362e2d25-4686-42b0-955c-b512931d9aa7",
+        "inventory_id": "f2531a64-b2a7-43ce-95ad-abc19026952d"
+      },
+      {
+        "id": "33b094dd-b60e-4054-9c0f-e7f6d3e21ec7",
+        "quantity": 97535,
+        "created_at": "2023-09-12T00:51:32.419Z",
+        "updated_at": "2023-09-12T14:45:14.717Z",
+        "cart_id": "362e2d25-4686-42b0-955c-b512931d9aa7",
+        "inventory_id": "74af84c4-b47d-4427-b230-5bfeb2f4ccbf"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d8f04214-25ad-45d3-ba50-81e10c0e4f84",
+        "email": "Magali_Spencer98@yahoo.com",
+        "firstName": "Tyra",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/410.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a1d4e0d-be82-4e71-8849-e16c3fee3dae",
+        "email": "Angelina_Cummerata1@yahoo.com",
+        "firstName": "Jensen",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22060154",
+        "tenantId": null
+      },
+      {
+        "reference": "b1e36c80-ff25-4a1c-ad37-6dba1d918042",
+        "email": "Moises61@gmail.com",
+        "firstName": "Garnet",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56094528",
+        "tenantId": null
+      },
+      {
+        "reference": "ca263080-2cb5-4918-83a5-ed66a503c60a",
+        "email": "Roxanne_Mraz11@hotmail.com",
+        "firstName": "Abdul",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/151.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7c4b0ae-d0cc-433a-9bd0-6cf7952874f2",
+        "email": "Ulises.Konopelski46@yahoo.com",
+        "firstName": "Karlie",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/583.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "4c4a87da-5ff1-4a98-a2ff-668ce82d39bb",
+        "fruit_name": "Apple",
+        "quantity": 86358,
+        "created_at": "2023-09-11T23:09:20.273Z",
+        "updated_at": "2023-09-12T01:57:47.115Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "97dd9f99-95f9-4555-b1f0-653b713c1bda",
+        "fruit_name": "Orange",
+        "quantity": 30420,
+        "created_at": "2023-09-12T12:00:46.124Z",
+        "updated_at": "2023-09-12T18:15:30.083Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "36984f96-0505-4205-a9e5-0a23ad6681cd",
+        "fruit_name": "Banana",
+        "quantity": 20050,
+        "created_at": "2023-09-12T04:25:08.437Z",
+        "updated_at": "2023-09-12T13:40:35.197Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "dc57e033-0fe9-4afc-8c6b-21bc63d211d2",
+        "fruit_name": "Grapes",
+        "quantity": 15846,
+        "created_at": "2023-09-12T15:00:17.825Z",
+        "updated_at": "2023-09-12T11:14:48.454Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "0e315c6a-19df-4aa9-9cf2-cd76672d8c3a",
+        "fruit_name": "Watermelon",
+        "quantity": 28640,
+        "created_at": "2023-09-12T17:56:31.524Z",
+        "updated_at": "2023-09-12T03:29:54.329Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "6b51159c-0ec6-4010-946a-f2ac9e4d7b1f",
+        "created_at": "2023-09-11T23:42:18.827Z",
+        "updated_at": "2023-09-11T19:26:25.019Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "881d26a4-170d-46cd-9cac-4515868ad9f9",
+        "created_at": "2023-09-12T05:25:01.363Z",
+        "updated_at": "2023-09-11T21:57:41.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9282b620-47e3-400f-aa04-8741ad1a627f",
+        "created_at": "2023-09-12T08:55:07.518Z",
+        "updated_at": "2023-09-12T03:30:55.880Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c3a0386-88ee-4ce7-b15a-c007c7ea7872",
+        "created_at": "2023-09-12T02:07:13.740Z",
+        "updated_at": "2023-09-12T03:55:00.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "888535e8-80cb-434c-bd02-610ab6180337",
+        "created_at": "2023-09-11T22:29:27.076Z",
+        "updated_at": "2023-09-12T05:04:24.149Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "92d21c0d-bd8b-4620-bc3e-7bcaae0efe82",
+        "status": "Pending",
+        "created_at": "2023-09-11T19:23:02.029Z",
+        "updated_at": "2023-09-12T06:57:07.695Z",
+        "cart_id": "6b51159c-0ec6-4010-946a-f2ac9e4d7b1f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf2108e0-d106-47e9-81e3-d70734f63af6",
+        "status": "Processing",
+        "created_at": "2023-09-12T08:36:08.959Z",
+        "updated_at": "2023-09-11T20:04:32.210Z",
+        "cart_id": "881d26a4-170d-46cd-9cac-4515868ad9f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b54ba83c-2068-42ee-9587-270cc2e3c902",
+        "status": "Shipped",
+        "created_at": "2023-09-12T05:45:10.838Z",
+        "updated_at": "2023-09-12T11:08:13.805Z",
+        "cart_id": "6b51159c-0ec6-4010-946a-f2ac9e4d7b1f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f929e907-4057-47cd-b83d-9bff6da49e8c",
+        "status": "Delivered",
+        "created_at": "2023-09-11T20:07:51.319Z",
+        "updated_at": "2023-09-12T18:13:40.901Z",
+        "cart_id": "888535e8-80cb-434c-bd02-610ab6180337",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e4560db-0f72-4e2b-8940-d4612418c6ce",
+        "status": "Cancelled",
+        "created_at": "2023-09-12T07:40:37.058Z",
+        "updated_at": "2023-09-12T13:01:27.581Z",
+        "cart_id": "888535e8-80cb-434c-bd02-610ab6180337",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "47dd6eec-989b-4f2f-8eb8-2de3923050c4",
+        "quantity": 93973,
+        "created_at": "2023-09-11T18:20:09.973Z",
+        "updated_at": "2023-09-12T14:18:45.759Z",
+        "cart_id": "881d26a4-170d-46cd-9cac-4515868ad9f9",
+        "inventory_id": "97dd9f99-95f9-4555-b1f0-653b713c1bda"
+      },
+      {
+        "id": "24dc4cb5-7e66-4f4a-a59e-51bcac229d05",
+        "quantity": 58996,
+        "created_at": "2023-09-12T02:32:43.236Z",
+        "updated_at": "2023-09-11T19:45:34.212Z",
+        "cart_id": "3c3a0386-88ee-4ce7-b15a-c007c7ea7872",
+        "inventory_id": "dc57e033-0fe9-4afc-8c6b-21bc63d211d2"
+      },
+      {
+        "id": "eb6e05fa-47f4-4f51-a23f-3e0c66ba2ff4",
+        "quantity": 79320,
+        "created_at": "2023-09-12T07:32:37.164Z",
+        "updated_at": "2023-09-12T02:45:12.865Z",
+        "cart_id": "888535e8-80cb-434c-bd02-610ab6180337",
+        "inventory_id": "dc57e033-0fe9-4afc-8c6b-21bc63d211d2"
+      },
+      {
+        "id": "e880ef4b-db95-4de6-b6fb-187acff5080d",
+        "quantity": 42060,
+        "created_at": "2023-09-12T12:16:55.446Z",
+        "updated_at": "2023-09-12T00:05:02.449Z",
+        "cart_id": "3c3a0386-88ee-4ce7-b15a-c007c7ea7872",
+        "inventory_id": "36984f96-0505-4205-a9e5-0a23ad6681cd"
+      },
+      {
+        "id": "c9d50614-0827-49fa-bbf5-1547922c6300",
+        "quantity": 36184,
+        "created_at": "2023-09-12T02:38:10.800Z",
+        "updated_at": "2023-09-12T07:10:11.347Z",
+        "cart_id": "888535e8-80cb-434c-bd02-610ab6180337",
+        "inventory_id": "4c4a87da-5ff1-4a98-a2ff-668ce82d39bb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "518425da-577b-4b42-a67f-9f7655b8fdb7",
+        "email": "Harmon_Herman86@hotmail.com",
+        "firstName": "Anabelle",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4999851",
+        "tenantId": null
+      },
+      {
+        "reference": "115a32dc-542d-45f7-8672-37cb8eca08e3",
+        "email": "Abelardo.Luettgen51@yahoo.com",
+        "firstName": "Eveline",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1030.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "786b696c-ebe5-4d99-939d-ec086dc01768",
+        "email": "Piper89@yahoo.com",
+        "firstName": "Felipa",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5588684",
+        "tenantId": null
+      },
+      {
+        "reference": "2d2b1d61-10ba-4c75-a329-6125fde13f93",
+        "email": "Marquise_Kemmer0@hotmail.com",
+        "firstName": "Jaylin",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44479114",
+        "tenantId": null
+      },
+      {
+        "reference": "6bdcefa9-80c5-489b-94bf-93fff41c4af9",
+        "email": "Sheldon.Kautzer53@yahoo.com",
+        "firstName": "Rachelle",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21169481",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "992304e0-9b8b-4684-b911-2f6c90cf851d",
+        "fruit_name": "Apple",
+        "quantity": 97230,
+        "created_at": "2023-09-11T22:40:17.835Z",
+        "updated_at": "2023-09-12T12:55:25.149Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "d214cfcd-2447-4e6b-8c0f-1cb12c028117",
+        "fruit_name": "Banana",
+        "quantity": 47214,
+        "created_at": "2023-09-12T04:29:11.770Z",
+        "updated_at": "2023-09-11T21:41:15.955Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "3ad41e79-2015-4943-94db-2765b4e0926b",
+        "fruit_name": "Orange",
+        "quantity": 35649,
+        "created_at": "2023-09-12T17:55:44.774Z",
+        "updated_at": "2023-09-12T02:07:36.356Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "29d43ca3-f29c-4b90-b93d-11f47bced3a3",
+        "fruit_name": "Mango",
+        "quantity": 6066,
+        "created_at": "2023-09-12T08:14:20.099Z",
+        "updated_at": "2023-09-12T11:52:12.971Z",
+        "vendor_id": "main_entity_pk"
+      },
+      {
+        "id": "5d0923f4-5c30-418f-92ed-61a6fae46547",
+        "fruit_name": "Grapes",
+        "quantity": 80993,
+        "created_at": "2023-09-12T10:14:48.842Z",
+        "updated_at": "2023-09-12T15:18:26.299Z",
+        "vendor_id": "main_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "60466b8a-c2ad-4781-b3f1-05378c012dad",
+        "created_at": "2023-09-12T05:34:02.262Z",
+        "updated_at": "2023-09-12T10:23:24.073Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6f7f665-5e83-4dd1-9fb9-4816e96ee2c8",
+        "created_at": "2023-09-12T09:27:29.364Z",
+        "updated_at": "2023-09-12T10:54:12.998Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6e5b7b2-d457-42d8-ac91-6dd9779a987c",
+        "created_at": "2023-09-12T01:16:17.086Z",
+        "updated_at": "2023-09-12T00:31:16.488Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d47bc1a5-3d07-4777-8876-261d909a284c",
+        "created_at": "2023-09-11T22:53:38.583Z",
+        "updated_at": "2023-09-11T20:09:45.611Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f44cbbb-27d4-4468-a567-a45bdc446ddc",
+        "created_at": "2023-09-12T11:29:30.580Z",
+        "updated_at": "2023-09-12T02:03:59.121Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "58c44421-1a4d-418b-a99b-a259687659ff",
+        "status": "Pending",
+        "created_at": "2023-09-11T23:57:07.940Z",
+        "updated_at": "2023-09-12T00:12:50.816Z",
+        "cart_id": "c6f7f665-5e83-4dd1-9fb9-4816e96ee2c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5eb0f5f3-4004-4e62-abdc-7856ae84be74",
+        "status": "Processing",
+        "created_at": "2023-09-12T08:33:41.997Z",
+        "updated_at": "2023-09-12T06:40:20.653Z",
+        "cart_id": "a6e5b7b2-d457-42d8-ac91-6dd9779a987c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2c6ef1b-1165-4daf-8d35-077e9b5e0162",
+        "status": "Shipped",
+        "created_at": "2023-09-12T01:02:18.106Z",
+        "updated_at": "2023-09-12T09:59:07.458Z",
+        "cart_id": "c6f7f665-5e83-4dd1-9fb9-4816e96ee2c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8007bfd9-5f68-4f5d-8cfd-418fdbf6014a",
+        "status": "Delivered",
+        "created_at": "2023-09-12T04:06:02.897Z",
+        "updated_at": "2023-09-11T20:51:35.107Z",
+        "cart_id": "a6e5b7b2-d457-42d8-ac91-6dd9779a987c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "740a0e0f-0af9-4d42-9f0b-22c1da4ce98e",
+        "status": "Cancelled",
+        "created_at": "2023-09-12T08:03:07.350Z",
+        "updated_at": "2023-09-12T11:58:32.664Z",
+        "cart_id": "60466b8a-c2ad-4781-b3f1-05378c012dad",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "d91145a1-e917-4eb6-a6bf-82f317d442d9",
+        "quantity": 37154,
+        "created_at": "2023-09-12T11:02:30.257Z",
+        "updated_at": "2023-09-12T05:52:14.158Z",
+        "cart_id": "60466b8a-c2ad-4781-b3f1-05378c012dad",
+        "inventory_id": "992304e0-9b8b-4684-b911-2f6c90cf851d"
+      },
+      {
+        "id": "52126a76-73d6-4777-a32e-1e4e873da808",
+        "quantity": 60946,
+        "created_at": "2023-09-12T06:45:37.234Z",
+        "updated_at": "2023-09-12T05:13:49.354Z",
+        "cart_id": "d47bc1a5-3d07-4777-8876-261d909a284c",
+        "inventory_id": "d214cfcd-2447-4e6b-8c0f-1cb12c028117"
+      },
+      {
+        "id": "a45c2baa-e4e5-43a5-96f4-5a49be9b3616",
+        "quantity": 93130,
+        "created_at": "2023-09-12T14:05:16.575Z",
+        "updated_at": "2023-09-11T20:04:18.835Z",
+        "cart_id": "a6e5b7b2-d457-42d8-ac91-6dd9779a987c",
+        "inventory_id": "5d0923f4-5c30-418f-92ed-61a6fae46547"
+      },
+      {
+        "id": "1196cf12-35ab-4925-8ba9-a085c1b7877f",
+        "quantity": 22016,
+        "created_at": "2023-09-12T14:32:24.369Z",
+        "updated_at": "2023-09-12T17:16:19.699Z",
+        "cart_id": "60466b8a-c2ad-4781-b3f1-05378c012dad",
+        "inventory_id": "3ad41e79-2015-4943-94db-2765b4e0926b"
+      },
+      {
+        "id": "f832d842-c9e2-4513-8cfd-2435126874a3",
+        "quantity": 70714,
+        "created_at": "2023-09-12T06:27:31.336Z",
+        "updated_at": "2023-09-12T01:09:21.825Z",
+        "cart_id": "60466b8a-c2ad-4781-b3f1-05378c012dad",
+        "inventory_id": "992304e0-9b8b-4684-b911-2f6c90cf851d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4c0ca7dc-7b90-4d4b-b2ec-0d6e4189a7b2",
+        "email": "Alejandra75@hotmail.com",
+        "firstName": "Mariela",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64528218",
+        "tenantId": null
+      },
+      {
+        "reference": "498139ec-1f10-43ee-9d24-4c18dc4a06db",
+        "email": "Wayne.Gottlieb38@gmail.com",
+        "firstName": "Elisabeth",
+        "lastName": "Legros-Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98699466",
+        "tenantId": null
+      },
+      {
+        "reference": "bb355eee-ec77-4424-91de-82e160ea8445",
+        "email": "Bethel10@gmail.com",
+        "firstName": "Elody",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35853081",
+        "tenantId": null
+      },
+      {
+        "reference": "46e9baf6-3716-479e-b409-3c42e7b18931",
+        "email": "Karelle11@yahoo.com",
+        "firstName": "Ethelyn",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79325917",
+        "tenantId": null
+      },
+      {
+        "reference": "b65fa172-c465-4669-b9b1-365234aa53a5",
+        "email": "Garrick_Goodwin13@hotmail.com",
+        "firstName": "Kristoffer",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27582951",
+        "tenantId": null
+      }
+    ]
+  }
+]
